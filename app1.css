@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Verdana, Helvetica, sans-serif;
+    max-width: 1700px;
+    min-width: 1200px;
+}
+nav {
+    margin-left: 2rem;
+}
+div { 
+    background-color: #3b5998;
+    display: flex; 
+}
+main {
+    margin: 1rem 4rem;
+}
+h1 {
+    font-size: 3.5rem;
+    margin-top: 8px ;
+    margin-bottom: 0;
+    color: white;
+}
+h3 {
+    font-size: 2rem;
+    margin: 2rem 0 1rem;
+}
+a {
+    color: grey;
+    text-decoration: none;
+    text-shadow: 0.5px 0.5px;
+}
+.noir:hover {
+    color: black;
+    text-decoration: underline;
+}
+.bleu:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.rouge:hover {
+    color:red;
+    text-decoration: underline;
+}
+.fushia:hover {
+    color:    #d6249f;
+    text-decoration: underline;
+}
+.logo-facebook {
+    width: 200px;
+    height: 200px;
+}
+.bandeau-text {
+    color: white;
+    padding-right: 3rem;
+}
+.telecharger {
+    color: white;
+    background-color: rgba(6, 57, 197, 0.548);
+    border-radius: 5px 5px;
+    padding: 5px 10px ;
+}
+.telecharger:hover {
+    color: black;
+}
+.images-facebook {
+    display: flex;
+    justify-content: flex-start;
+    margin: 2rem 0;
+}
+.footer {
+    text-align: center;
+}

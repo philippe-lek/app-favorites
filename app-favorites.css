@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Verdana, Helvetica, sans-serif;
+}
+nav {
+    margin-left: 2rem;
+}
+div {
+    margin: 4px 10px;
+    display: flex;   
+}
+h1 {
+    font-size: 3.5rem;
+    margin: 1.5rem  0rem;
+}
+h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+}
+a {
+    color: grey;
+    text-decoration: none;
+    text-shadow: 0.5px 0.5px;
+}
+.noir:hover {
+    color: black;
+    text-decoration: underline;
+}
+.bleu:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.rouge:hover {
+    color: red;
+    text-decoration: underline;
+}
+.fushia:hover {
+    color:    #d6249f;
+    text-decoration: underline;
+}
+img {
+    border: solid 1px;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+.bandeau {
+    border: 1px solid;
+    padding: 0.5rem 4rem 1rem 4rem;
+    background-color: mediumaquamarine;
+    margin-bottom: 2rem;
+}
+
+.colonne {
+    margin: 5px;
+    border: solid 1px;
+    border-radius: 5px 5px;
+    padding-top: 1rem;
+    flex-basis: 0;
+    flex: 1;
+}
+.colonne-text {
+    padding: 0 2.5rem;
+}
+.footer {
+    text-align: center;
+}

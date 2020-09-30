@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: Verdana, Helvetica, sans-serif;
+  max-width: 1700px;
+  min-width: 1200px;
+}
+nav {
+  margin-left: 2rem;
+}
+.bandeau {
+  background-color: #3b5998;
+  display: flex;
+  justify-content: center;
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 12% 200%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+main {
+  margin: 1rem 4rem;
+}
+h1 {
+  font-size: 3.5rem;
+  margin-top: 8px;
+  margin-bottom: 0;
+  color: white;
+}
+h3 {
+  font-size: 2rem;
+  margin: 2rem 0 1rem;
+}
+a {
+  color: grey;
+  text-decoration: none;
+  text-shadow: 0.5px 0.5px;
+}
+.noir:hover {
+  color: black;
+  text-decoration: underline;
+}
+.bleu:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.rouge:hover {
+  color: red;
+  text-decoration: underline;
+}
+.fushia:hover {
+  color: #d6249f;
+  text-decoration: underline;
+}
+.logo-instagram {
+  width: 200px;
+  height: 200px;
+  margin: 2rem 2rem;
+}
+.bandeau-text {
+  color: white;
+  padding-right: 3rem;
+}
+.telecharger {
+  color: white;
+  background-color: rgba(197, 6, 124, 0.548);
+  border-radius: 5px 5px;
+  padding: 5px 10px;
+}
+.telecharger:hover {
+  color: black;
+}
+.images-instagram {
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  text-align: center;
+}

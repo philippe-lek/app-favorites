@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Verdana, Helvetica, sans-serif;
+    max-width: 1700px;
+    min-width: 1200px
+}
+nav {
+    margin-left: 2rem;
+}
+div { 
+    display: flex; 
+}
+main {
+    margin: 1rem 4rem;
+}
+h3 {
+    font-size: 2rem;
+    margin: 28px 0 1rem;
+}
+a {
+    color: grey;
+    text-decoration: none;
+    text-shadow: 0.5px 0.5px;
+}
+.noir:hover {
+    color: black;
+    text-decoration: underline;
+}
+.bleu:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.rouge:hover {
+    color: red;
+    text-decoration: underline;
+}
+.fushia:hover {
+    color:    #d6249f;
+    text-decoration: underline;
+}
+.bandeau-text {
+    color: white;
+    padding-right: 3rem;
+}
+.telecharger {
+    color: white;
+    background-color: #db2e2ed3;
+    border-radius: 5px 5px;
+    padding: 5px 10px ;
+}
+.telecharger:hover {
+    color: black;
+}
+figure {
+    display: flex;
+    justify-content: center;
+}
+.images-youtube {
+    margin: 2rem 0rem;
+}
+.footer {
+    text-align: center;
+}
